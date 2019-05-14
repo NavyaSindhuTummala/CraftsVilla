@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FlipkartDemo]">
+  <listeners>
+    <listener class-name="com.flipkart.generic.ScreenShotCapture"/>
+  </listeners>
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="com.flipkart.testscripts.FlipkarHomePageScripts">
+        <methods>
+          <include name="TC_01_ComposeAMail"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.flipkart.testscripts.FlipkarHomePageScripts -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [FlipkartDemo] -->
